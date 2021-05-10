@@ -2,6 +2,9 @@ package colegio;
 
 import java.util.Date;
 
+/**
+* Comentario Javadoc
+*/
 
 public abstract class Alumno implements Escolarizable {
     

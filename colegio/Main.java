@@ -3,6 +3,14 @@ package colegio;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+plugins {
+    'java'
+}
+
+task myJavadocs (type: Javadoc) {
+    source= sourceSets.mainallJava
+}
+
 public class Main {
 
     public static void nuevoAlumno(Alumno alumno) {
